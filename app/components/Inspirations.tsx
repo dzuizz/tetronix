@@ -14,15 +14,15 @@ const Inspirations: React.FC = () => {
             </div>
             <h2 className="relative text-4xl font-bold text-center mb-12 text-gray-900 dark:text-white z-10">Inspirations</h2>
             <p className="relative text-center text-gray-700 dark:text-gray-300 max-w-3xl mx-auto mb-8 z-10">
-                Tetronix was inspired by the classic Tetris game but with a modern twist. We drew inspiration from <a href="https://tetr.io/" className="underline">TETR.IO</a>'s amazing community and gameplay, which showed us the potential of combining classic gameplay with modern features.
+                Tetronix was inspired by the classic Tetris game but with a modern twist. We drew inspiration from <a href="https://tetr.io/" className="underline">TETR.IO</a>&apos;s amazing community and gameplay, which showed us the potential of combining classic gameplay with modern features.
             </p>
             <div className="relative flex justify-center items-center gap-8 z-10">
-                <img src="/images/tetrio-community.jpg" alt="TETR.IO Community" className="w-1/2 rounded-lg shadow-lg"/>
-                <img src="/images/tetrio-gameplay.jpg" alt="TETR.IO Gameplay" className="w-1/2 rounded-lg shadow-lg"/>
+                {/*<img src="/images/tetrio-community.jpg" alt="TETR.IO Community" className="w-1/2 rounded-lg shadow-lg"/>*/}
+                {/*<img src="/images/tetrio-gameplay.jpg" alt="TETR.IO Gameplay" className="w-1/2 rounded-lg shadow-lg"/>*/}
             </div>
             <div className="relative text-center mt-8 text-gray-700 dark:text-gray-300 max-w-3xl mx-auto z-10">
-                <p className="italic">"The TETR.IO community is incredibly supportive and passionate. It's a joy to be part of it!"</p>
-                <p className="mt-4 italic">"TETR.IO's gameplay is smooth and addictive. We wanted to bring that same experience to Tetronix."</p>
+                <p className="italic">&quot;The TETR.IO community is incredibly supportive and passionate. It&apos;s a joy to be part of it!&quot;</p>
+                <p className="mt-4 italic">"TETR.IO&apos;s gameplay is smooth and addictive. We wanted to bring that same experience to Tetronix.&quot;</p>
             </div>
         </section>
     );

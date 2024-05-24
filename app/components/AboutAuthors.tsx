@@ -34,7 +34,7 @@ const AboutAuthors: React.FC = () => {
             <div className="flex flex-wrap justify-center items-center gap-8">
                 {authors.map((author, index) => (
                     <div key={index} className="max-w-sm bg-white rounded-lg shadow-lg overflow-hidden dark:bg-gray-900 transition-transform transform hover:scale-105 mx-4">
-                        <img className="w-full h-48 object-cover" src={author.image} alt={author.name} />
+                        {/*<img className="w-full h-48 object-cover" src={author.image} alt={author.name} />*/}
                         <div className="p-6">
                             <h3 className="text-2xl font-bold mb-2 text-gray-900 dark:text-white">{author.name}</h3>
                             <p className="text-gray-700 dark:text-gray-300">{author.role}</p>

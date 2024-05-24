@@ -37,7 +37,7 @@ const FeatureSection: React.FC = () => {
                 <div className="feature-scrollable-content flex animate-scroll">
                     {features.map((feature, index) => (
                         <div key={index} className="inline-block max-w-sm bg-white rounded-lg shadow-lg overflow-hidden dark:bg-gray-900 transition-transform transform hover:scale-105 mx-4">
-                            <img className="w-full h-48 object-cover" src={feature.image} alt={feature.title} />
+                            {/*<img className="w-full h-48 object-cover" src={feature.image} alt={feature.title} />*/}
                             <div className="p-6">
                                 <h3 className="text-2xl font-bold mb-2 text-gray-900 dark:text-white">{feature.title}</h3>
                                 <p className="text-gray-700 dark:text-gray-300">{feature.description}</p>

@@ -37,7 +37,7 @@ const Testimonials: React.FC = () => {
             <div className="flex flex-wrap justify-center items-center gap-8">
                 {testimonials.map((testimonial, index) => (
                     <div key={index} className="max-w-lg bg-white rounded-lg shadow-lg overflow-hidden dark:bg-gray-900 transition-transform transform hover:scale-105 p-6">
-                        <p className="text-lg italic text-gray-700 dark:text-gray-300">"{testimonial.testimonial}"</p>
+                        <p className="text-lg italic text-gray-700 dark:text-gray-300">&quot;{testimonial.testimonial}&quot;</p>
                         <p className="mt-4 text-right text-gray-900 dark:text-white">- {testimonial.name}, {testimonial.role}</p>
                     </div>
                 ))}
