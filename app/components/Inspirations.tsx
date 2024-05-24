@@ -22,7 +22,7 @@ const Inspirations: React.FC = () => {
             </div>
             <div className="relative text-center mt-8 text-gray-700 dark:text-gray-300 max-w-3xl mx-auto z-10">
                 <p className="italic">&quot;The TETR.IO community is incredibly supportive and passionate. It&apos;s a joy to be part of it!&quot;</p>
-                <p className="mt-4 italic">"TETR.IO&apos;s gameplay is smooth and addictive. We wanted to bring that same experience to Tetronix.&quot;</p>
+                <p className="mt-4 italic">&quot;TETR.IO&apos;s gameplay is smooth and addictive. We wanted to bring that same experience to Tetronix.&quot;</p>
             </div>
         </section>
     );
