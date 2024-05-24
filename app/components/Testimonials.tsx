@@ -6,7 +6,7 @@ const testimonials = [
     {
         name: "Jane Doe",
         role: "High School Student",
-        testimonial: "TetrisX is the best version of Tetris I've ever played. The design is stunning and the gameplay is super smooth!"
+        testimonial: "Tetronix is the best version of Tetris I've ever played. The design is stunning and the gameplay is super smooth!"
     },
     {
         name: "John Smith",
@@ -16,17 +16,17 @@ const testimonials = [
     {
         name: "Alice Johnson",
         role: "Teacher",
-        testimonial: "TetrisX is a fantastic educational tool. My students love it and it helps them learn while having fun!"
+        testimonial: "Tetronix is a fantastic educational tool. My students love it and it helps them learn while having fun!"
     },
     {
         name: "Bob Williams",
         role: "Developer",
-        testimonial: "The smooth gameplay and modern design make TetrisX a joy to play. It's a perfect blend of classic and new."
+        testimonial: "The smooth gameplay and modern design make Tetronix a joy to play. It's a perfect blend of classic and new."
     },
     {
         name: "Charlie Brown",
         role: "Designer",
-        testimonial: "TetrisX's design is sleek and intuitive. It's a great example of how classic games can be modernized."
+        testimonial: "Tetronix's design is sleek and intuitive. It's a great example of how classic games can be modernized."
     }
 ];
 

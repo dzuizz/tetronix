@@ -33,7 +33,7 @@ const Navbar: React.FC = () => {
     return (
         <nav className="p-6 bg-white dark:bg-gray-800 shadow-md fixed top-0 w-full z-50">
             <div className="container mx-auto flex justify-between items-center">
-                <div className="text-2xl font-bold">TetrisX</div>
+                <div className="text-2xl font-bold">Tetronix</div>
                 <div className="flex space-x-4 items-center">
                     <a href="#features" className="hover:underline">Features</a>
                     <a href="#testimonials" className="hover:underline">Testimonials</a>
