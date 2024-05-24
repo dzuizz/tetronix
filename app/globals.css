@@ -2,32 +2,66 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    position: relative;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.dark-mode {
+    --bg-color: #121212;
+    --text-color: #ffffff;
+}
+
+.light-mode {
+    --bg-color: #f0f0f0;
+    --text-color: #333333;
+}
+
+.text-flashlight {
+    background: var(--bg-color);
+    color: var(--text-color);
+    position: relative;
+    z-index: 0;
+}
+
+.text-flashlight::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at var(--cursor-x) var(--cursor-y), transparent, var(--bg-color) 80%);
+    pointer-events: none;
+    z-index: -1;
+}
+
+.scrollable-section {
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+}
+
+.scrollable-content {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.animate-scroll {
+    animation: scroll linear infinite;
+}
+
+.tetris-piece {
+    @apply text-gray-300 opacity-10;
+    font-size: 5rem;
 }
